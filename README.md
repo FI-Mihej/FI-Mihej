@@ -66,6 +66,25 @@ Python + Cython + C/C++ + Nim + Go (where performance matters)
 
 ---
 
+## MCP servers
+
+### [CodebaseAgent-MCP](https://github.com/FI-Mihej/codebase-agent-mcp)
+
+A sub-harness (both an MCP server and an MCP client). Delegates documentation and source code analysis, as well as interactions with related context-providing MCP servers, to a local or inexpensive OpenAI-compatible LLM. Drastically reduces token usage and context size for coding agents on the top-tier LLM.
+
+**Core idea:**  
+Let a cheap/local LLM explore docs/code. Let a top-tier LLM write code.
+
+---
+
+### [Text File Read And Refactor MCP](https://github.com/FI-Mihej/text_file_read_and_refactor_mcp)
+
+Token-efficient Python stdio MCP server exposing safe text-file search, reading, and refactoring tools. Tools automatically resolve the file BOM and codepage; edit tools save files with their original encoding and BOM.
+
+Exports a simplified version of the `cengal.text_processing.*` modules from the [Cengal](https://github.com/FI-Mihej/Cengal) library.
+
+---
+
 ## Engineering Direction
 
 - Reducing Python overhead via architecture, not micro-optimizations
