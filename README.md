@@ -21,8 +21,7 @@ Async • multiprocessing • shared memory • LLM infrastructure
 Contributor to:
 - [NiceGUI](https://github.com/zauberzeug/nicegui)
 - [Billion Row Challenge (Python)](https://github.com/ifnesi/1brc)
-
-[Authored a fix](https://github.com/kivy/kivy/pull/7619) for an important Windows issue in [Kivy's](https://github.com/kivy/kivy) core (included via an [upstream PR](https://github.com/kivy/kivy/pull/7637)).
+- [Kivy](https://github.com/kivy/kivy): [Authored a fix](https://github.com/kivy/kivy/pull/7619) for an important Windows issue in [Kivy's](https://github.com/kivy/kivy) core (included via an [upstream PR](https://github.com/kivy/kivy/pull/7637)).
 
 ---
 
