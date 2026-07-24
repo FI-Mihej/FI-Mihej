@@ -19,9 +19,9 @@ Async • multiprocessing • shared memory • LLM infrastructure
 ## Open Source Contributions
 
 Contributor to:
-- [NiceGUI](https://github.com/zauberzeug/nicegui)
-- [Billion Row Challenge (Python)](https://github.com/ifnesi/1brc)
-- [Kivy](https://github.com/kivy/kivy): [Authored a fix](https://github.com/kivy/kivy/pull/7619) for an important Windows issue in [Kivy's](https://github.com/kivy/kivy) core (included via an [upstream PR](https://github.com/kivy/kivy/pull/7637)).
+- [NiceGUI](https://github.com/zauberzeug/nicegui) ![GitHub Repo stars](https://img.shields.io/github/stars/zauberzeug/nicegui): I fixed and overall improved client-server event synchronization for interactive UI components.
+- [Billion Row Challenge (Python)](https://github.com/ifnesi/1brc) - Python section of [The One Billion Row Challenge](https://github.com/gunnarmorling/1brc) ![GitHub Repo stars](https://img.shields.io/github/stars/gunnarmorling/1brc): I improved the performance of the pure Python implementations (for both CPython and PyPy) by an additional 10–20%.
+- [Kivy](https://github.com/kivy/kivy) ![GitHub Repo stars](https://img.shields.io/github/stars/kivy/kivy): [Authored a fix](https://github.com/kivy/kivy/pull/7619) for an important Windows issue in [Kivy's](https://github.com/kivy/kivy) core (included via an [upstream PR](https://github.com/kivy/kivy/pull/7637)).
 
 ---
 
