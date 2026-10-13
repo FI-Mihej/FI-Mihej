@@ -27,7 +27,7 @@ Contributor to:
 
 ## Key Projects
 
-### [InterProcessPyObjects](https://github.com/FI-Mihej/InterProcessPyObjects) (First released in May 2024)
+### [InterProcessPyObjects](https://github.com/FI-Mihej/InterProcessPyObjects) (Part of the [Cengal](https://github.com/FI-Mihej/Cengal); first released as a standalone project in May 2024)
 
 High-performance IPC via shared memory.
 
