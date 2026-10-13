@@ -61,7 +61,7 @@ Includes:
 - Advanced introspection & text parsing tools
 
 **Implementation stack:**  
-Python + Cython + C/C++ + Nim + Go (where performance matters)
+Python + Cython + C/C++ + Nim + Go
 
 ---
 
