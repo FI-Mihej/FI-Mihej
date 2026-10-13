@@ -90,13 +90,20 @@ A sub-harness (both an MCP server and an MCP client). Delegates documentation an
 **Core idea:**  
 Let a cheap/local LLM explore docs/code. Let a top-tier LLM write code.
 
+**Implementation stack:**  
+Python + [Cengal](https://github.com/FI-Mihej/Cengal) + [Text File Read And Refactor MCP](https://github.com/FI-Mihej/text_file_read_and_refactor_mcp)
+
 ---
 
 ### [Text File Read And Refactor MCP](https://github.com/FI-Mihej/text_file_read_and_refactor_mcp) (Development started in Jun 2026; First released in Jul 2026)
 
 Token-efficient Python stdio MCP server exposing safe text-file search, reading, and refactoring tools. Tools automatically resolve the file BOM and codepage; edit tools save files with their original encoding and BOM.
 
+**Core idea:**  
 Exports a simplified version of the `cengal.text_processing.*` modules from the [Cengal](https://github.com/FI-Mihej/Cengal) library.
+
+**Implementation stack:**  
+Python + [Cengal](https://github.com/FI-Mihej/Cengal)
 
 ---
 
